@@ -15,7 +15,7 @@ void Trapezoid::Print(std::ostream& os) {
     os << "Trapezoid: " << a_ << " " << b_ << " " << c_ << " " << d_ << std::endl;
 }
 
-size_t Trapezoid::VertexNumber() {
+size_t Trapezoid::VertexesNumber() {
     return 4;
 }
 

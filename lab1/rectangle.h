@@ -11,7 +11,7 @@ public:
     Rectangle(Point a, Point b, Point c, Point d);
     Rectangle(std::istream& is);
 
-    size_t VertexNumber();
+    size_t VertexesNumber();
     double Area();
     void Print(std::ostream& os);
 private:

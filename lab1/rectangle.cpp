@@ -14,7 +14,7 @@ void Rectangle::Print(std::ostream& os) {
     os << "Rectangle: " << a_ << " " << b_ << " " << c_ << " " << d_ << std::endl;
 }
 
-size_t Rectangle::VertexNumber(){
+size_t Rectangle::VertexesNumber(){
     return 4;
 }
 

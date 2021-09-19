@@ -14,7 +14,7 @@ void Square::Print(std::ostream& os) {
     os << "Square: " << a_ << " " << b_ << " " << c_ << " " << d_ << std::endl;
 }
 
-size_t Square::VertexNumber() {
+size_t Square::VertexesNumber() {
     return 4;
 }
 
