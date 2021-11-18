@@ -5,7 +5,7 @@
 #include "point.h"
 #include "figure.h"
 
-class Rectangle : Figure {
+class Rectangle : public Figure {
 public:
     Rectangle();
     Rectangle(Point a, Point b, Point c, Point d);
