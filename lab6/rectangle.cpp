@@ -14,10 +14,20 @@ void Rectangle::Print(std::ostream& os) {
     os << "Rectangle: " << a_ << " " << b_ << " " << c_ << " " << d_ << std::endl;
 }
 
-size_t Rectangle::VertexesNumber(){
+size_t Rectangle::VertexesNumber() {
     return 4;
 }
 
 double Rectangle::Area(){
     return a_.dist(b_) * c_.dist(d_);
+}
+
+TAllocationBlock Rectangle::block(sizeof(Rectangle), 1000);
+
+void *Rectangle::operator new(size_t size) {
+    return block.Allocate();
+}
+
+void Rectangle::operator delete(void *ptr) {
+    block.Deallocate(ptr);
 }

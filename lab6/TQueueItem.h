@@ -1,8 +1,8 @@
 #ifndef FIGURE_H_TQUEUEITEM_H
 #define FIGURE_H_TQUEUEITEM_H
 
-#include "square.h"
 #include <memory>
+#include "TAllocationBlock.h"
 
 template <class T> class TQueueItem {
 public:

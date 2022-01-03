@@ -117,35 +117,9 @@ CMakeFiles/lab6.dir/point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab6.dir/point.cpp.s"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\OOP\lab6\point.cpp -o CMakeFiles\lab6.dir\point.cpp.s
 
-CMakeFiles/lab6.dir/square.cpp.obj: CMakeFiles/lab6.dir/flags.make
-CMakeFiles/lab6.dir/square.cpp.obj: ../square.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab6.dir/square.cpp.obj"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab6.dir\square.cpp.obj -c C:\Users\user\Desktop\OOP\lab6\square.cpp
-
-CMakeFiles/lab6.dir/square.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab6.dir/square.cpp.i"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\OOP\lab6\square.cpp > CMakeFiles\lab6.dir\square.cpp.i
-
-CMakeFiles/lab6.dir/square.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab6.dir/square.cpp.s"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\OOP\lab6\square.cpp -o CMakeFiles\lab6.dir\square.cpp.s
-
-CMakeFiles/lab6.dir/trapezoid.cpp.obj: CMakeFiles/lab6.dir/flags.make
-CMakeFiles/lab6.dir/trapezoid.cpp.obj: ../trapezoid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab6.dir/trapezoid.cpp.obj"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab6.dir\trapezoid.cpp.obj -c C:\Users\user\Desktop\OOP\lab6\trapezoid.cpp
-
-CMakeFiles/lab6.dir/trapezoid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab6.dir/trapezoid.cpp.i"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\OOP\lab6\trapezoid.cpp > CMakeFiles\lab6.dir\trapezoid.cpp.i
-
-CMakeFiles/lab6.dir/trapezoid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab6.dir/trapezoid.cpp.s"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\OOP\lab6\trapezoid.cpp -o CMakeFiles\lab6.dir\trapezoid.cpp.s
-
 CMakeFiles/lab6.dir/rectangle.cpp.obj: CMakeFiles/lab6.dir/flags.make
 CMakeFiles/lab6.dir/rectangle.cpp.obj: ../rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab6.dir/rectangle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab6.dir/rectangle.cpp.obj"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab6.dir\rectangle.cpp.obj -c C:\Users\user\Desktop\OOP\lab6\rectangle.cpp
 
 CMakeFiles/lab6.dir/rectangle.cpp.i: cmake_force
@@ -156,9 +130,22 @@ CMakeFiles/lab6.dir/rectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab6.dir/rectangle.cpp.s"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\OOP\lab6\rectangle.cpp -o CMakeFiles\lab6.dir\rectangle.cpp.s
 
+CMakeFiles/lab6.dir/TAllocationBlock.cpp.obj: CMakeFiles/lab6.dir/flags.make
+CMakeFiles/lab6.dir/TAllocationBlock.cpp.obj: ../TAllocationBlock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab6.dir/TAllocationBlock.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab6.dir\TAllocationBlock.cpp.obj -c C:\Users\user\Desktop\OOP\lab6\TAllocationBlock.cpp
+
+CMakeFiles/lab6.dir/TAllocationBlock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab6.dir/TAllocationBlock.cpp.i"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\OOP\lab6\TAllocationBlock.cpp > CMakeFiles\lab6.dir\TAllocationBlock.cpp.i
+
+CMakeFiles/lab6.dir/TAllocationBlock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab6.dir/TAllocationBlock.cpp.s"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\OOP\lab6\TAllocationBlock.cpp -o CMakeFiles\lab6.dir\TAllocationBlock.cpp.s
+
 CMakeFiles/lab6.dir/TLinkedList.cpp.obj: CMakeFiles/lab6.dir/flags.make
 CMakeFiles/lab6.dir/TLinkedList.cpp.obj: ../TLinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab6.dir/TLinkedList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab6.dir/TLinkedList.cpp.obj"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab6.dir\TLinkedList.cpp.obj -c C:\Users\user\Desktop\OOP\lab6\TLinkedList.cpp
 
 CMakeFiles/lab6.dir/TLinkedList.cpp.i: cmake_force
@@ -171,7 +158,7 @@ CMakeFiles/lab6.dir/TLinkedList.cpp.s: cmake_force
 
 CMakeFiles/lab6.dir/TLinkedListItem.cpp.obj: CMakeFiles/lab6.dir/flags.make
 CMakeFiles/lab6.dir/TLinkedListItem.cpp.obj: ../TLinkedListItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lab6.dir/TLinkedListItem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab6.dir/TLinkedListItem.cpp.obj"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab6.dir\TLinkedListItem.cpp.obj -c C:\Users\user\Desktop\OOP\lab6\TLinkedListItem.cpp
 
 CMakeFiles/lab6.dir/TLinkedListItem.cpp.i: cmake_force
@@ -188,9 +175,8 @@ lab6_OBJECTS = \
 "CMakeFiles/lab6.dir/TQueueItem.cpp.obj" \
 "CMakeFiles/lab6.dir/TQueue.cpp.obj" \
 "CMakeFiles/lab6.dir/point.cpp.obj" \
-"CMakeFiles/lab6.dir/square.cpp.obj" \
-"CMakeFiles/lab6.dir/trapezoid.cpp.obj" \
 "CMakeFiles/lab6.dir/rectangle.cpp.obj" \
+"CMakeFiles/lab6.dir/TAllocationBlock.cpp.obj" \
 "CMakeFiles/lab6.dir/TLinkedList.cpp.obj" \
 "CMakeFiles/lab6.dir/TLinkedListItem.cpp.obj"
 
@@ -201,16 +187,15 @@ lab6.exe: CMakeFiles/lab6.dir/main.cpp.obj
 lab6.exe: CMakeFiles/lab6.dir/TQueueItem.cpp.obj
 lab6.exe: CMakeFiles/lab6.dir/TQueue.cpp.obj
 lab6.exe: CMakeFiles/lab6.dir/point.cpp.obj
-lab6.exe: CMakeFiles/lab6.dir/square.cpp.obj
-lab6.exe: CMakeFiles/lab6.dir/trapezoid.cpp.obj
 lab6.exe: CMakeFiles/lab6.dir/rectangle.cpp.obj
+lab6.exe: CMakeFiles/lab6.dir/TAllocationBlock.cpp.obj
 lab6.exe: CMakeFiles/lab6.dir/TLinkedList.cpp.obj
 lab6.exe: CMakeFiles/lab6.dir/TLinkedListItem.cpp.obj
 lab6.exe: CMakeFiles/lab6.dir/build.make
 lab6.exe: CMakeFiles/lab6.dir/linklibs.rsp
 lab6.exe: CMakeFiles/lab6.dir/objects1.rsp
 lab6.exe: CMakeFiles/lab6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable lab6.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\Desktop\OOP\lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable lab6.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab6.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

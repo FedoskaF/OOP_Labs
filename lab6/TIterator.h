@@ -1,8 +1,6 @@
 #ifndef LAB5_TITERATOR_H
 #define LAB5_TITERATOR_H
 
-#include "square.h"
-
 #include <iostream>
 
 template <class item, class T> class TIterator {

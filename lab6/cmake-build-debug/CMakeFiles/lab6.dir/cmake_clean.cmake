@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lab6.dir/TAllocationBlock.cpp.obj"
   "CMakeFiles/lab6.dir/TLinkedList.cpp.obj"
   "CMakeFiles/lab6.dir/TLinkedListItem.cpp.obj"
   "CMakeFiles/lab6.dir/TQueue.cpp.obj"
@@ -6,8 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab6.dir/main.cpp.obj"
   "CMakeFiles/lab6.dir/point.cpp.obj"
   "CMakeFiles/lab6.dir/rectangle.cpp.obj"
-  "CMakeFiles/lab6.dir/square.cpp.obj"
-  "CMakeFiles/lab6.dir/trapezoid.cpp.obj"
   "lab6.exe"
   "lab6.exe.manifest"
   "lab6.pdb"

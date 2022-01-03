@@ -4,6 +4,7 @@
 #include <iostream>
 #include "point.h"
 #include "figure.h"
+#include "TAllocationBlock.h"
 
 class Rectangle : public Figure {
 public:
@@ -14,11 +15,16 @@ public:
     size_t VertexesNumber();
     double Area();
     void Print(std::ostream& os);
+
+    void * operator new (size_t size);
+    void operator delete(void *ptr);
+
 private:
     Point a_;
     Point b_;
     Point c_;
     Point d_;
+    static TAllocationBlock block;
 };
 
 #endif //RECTANGLE_H

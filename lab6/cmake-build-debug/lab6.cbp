@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/user/Desktop/OOP/lab6/TAllocationBlock.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="C:/Users/user/Desktop/OOP/lab6/TAllocationBlock.h">
+			<Option target="lab6"/>
+		</Unit>
 		<Unit filename="C:/Users/user/Desktop/OOP/lab6/TIterator.h">
 			<Option target="lab6"/>
 		</Unit>
@@ -123,18 +129,6 @@
 			<Option target="lab6"/>
 		</Unit>
 		<Unit filename="C:/Users/user/Desktop/OOP/lab6/rectangle.h">
-			<Option target="lab6"/>
-		</Unit>
-		<Unit filename="C:/Users/user/Desktop/OOP/lab6/square.cpp">
-			<Option target="lab6"/>
-		</Unit>
-		<Unit filename="C:/Users/user/Desktop/OOP/lab6/square.h">
-			<Option target="lab6"/>
-		</Unit>
-		<Unit filename="C:/Users/user/Desktop/OOP/lab6/trapezoid.cpp">
-			<Option target="lab6"/>
-		</Unit>
-		<Unit filename="C:/Users/user/Desktop/OOP/lab6/trapezoid.h">
 			<Option target="lab6"/>
 		</Unit>
 		<Unit filename="C:/Users/user/Desktop/OOP/lab6/CMakeLists.txt">

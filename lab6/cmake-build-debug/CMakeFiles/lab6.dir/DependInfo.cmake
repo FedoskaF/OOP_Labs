@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/user/Desktop/OOP/lab6/TAllocationBlock.cpp" "C:/Users/user/Desktop/OOP/lab6/cmake-build-debug/CMakeFiles/lab6.dir/TAllocationBlock.cpp.obj"
   "C:/Users/user/Desktop/OOP/lab6/TLinkedList.cpp" "C:/Users/user/Desktop/OOP/lab6/cmake-build-debug/CMakeFiles/lab6.dir/TLinkedList.cpp.obj"
   "C:/Users/user/Desktop/OOP/lab6/TLinkedListItem.cpp" "C:/Users/user/Desktop/OOP/lab6/cmake-build-debug/CMakeFiles/lab6.dir/TLinkedListItem.cpp.obj"
   "C:/Users/user/Desktop/OOP/lab6/TQueue.cpp" "C:/Users/user/Desktop/OOP/lab6/cmake-build-debug/CMakeFiles/lab6.dir/TQueue.cpp.obj"
@@ -15,8 +16,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/user/Desktop/OOP/lab6/main.cpp" "C:/Users/user/Desktop/OOP/lab6/cmake-build-debug/CMakeFiles/lab6.dir/main.cpp.obj"
   "C:/Users/user/Desktop/OOP/lab6/point.cpp" "C:/Users/user/Desktop/OOP/lab6/cmake-build-debug/CMakeFiles/lab6.dir/point.cpp.obj"
   "C:/Users/user/Desktop/OOP/lab6/rectangle.cpp" "C:/Users/user/Desktop/OOP/lab6/cmake-build-debug/CMakeFiles/lab6.dir/rectangle.cpp.obj"
-  "C:/Users/user/Desktop/OOP/lab6/square.cpp" "C:/Users/user/Desktop/OOP/lab6/cmake-build-debug/CMakeFiles/lab6.dir/square.cpp.obj"
-  "C:/Users/user/Desktop/OOP/lab6/trapezoid.cpp" "C:/Users/user/Desktop/OOP/lab6/cmake-build-debug/CMakeFiles/lab6.dir/trapezoid.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

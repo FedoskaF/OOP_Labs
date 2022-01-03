@@ -66,14 +66,6 @@ C:/Users/user/Desktop/OOP/lab5/point.h
 iostream
 -
 
-C:/Users/user/Desktop/OOP/lab5/rectangle.cpp
-iostream
--
-point.h
-C:/Users/user/Desktop/OOP/lab5/point.h
-rectangle.h
-C:/Users/user/Desktop/OOP/lab5/rectangle.h
-
 C:/Users/user/Desktop/OOP/lab5/rectangle.h
 iostream
 -
@@ -82,16 +74,6 @@ C:/Users/user/Desktop/OOP/lab5/point.h
 figure.h
 C:/Users/user/Desktop/OOP/lab5/figure.h
 
-C:/Users/user/Desktop/OOP/lab5/square.cpp
-iostream
--
-point.h
-C:/Users/user/Desktop/OOP/lab5/point.h
-square.h
-C:/Users/user/Desktop/OOP/lab5/square.h
-memory
--
-
 C:/Users/user/Desktop/OOP/lab5/square.h
 point.h
 C:/Users/user/Desktop/OOP/lab5/point.h
@@ -99,16 +81,6 @@ figure.h
 C:/Users/user/Desktop/OOP/lab5/figure.h
 memory
 -
-
-C:/Users/user/Desktop/OOP/lab5/trapezoid.cpp
-iostream
--
-cmath
--
-point.h
-C:/Users/user/Desktop/OOP/lab5/point.h
-trapezoid.h
-C:/Users/user/Desktop/OOP/lab5/trapezoid.h
 
 C:/Users/user/Desktop/OOP/lab5/trapezoid.h
 iostream

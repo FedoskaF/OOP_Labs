@@ -128,6 +128,30 @@ lab6/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/build
 .PHONY : lab6/fast
 
+TAllocationBlock.obj: TAllocationBlock.cpp.obj
+.PHONY : TAllocationBlock.obj
+
+# target to build an object file
+TAllocationBlock.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/TAllocationBlock.cpp.obj
+.PHONY : TAllocationBlock.cpp.obj
+
+TAllocationBlock.i: TAllocationBlock.cpp.i
+.PHONY : TAllocationBlock.i
+
+# target to preprocess a source file
+TAllocationBlock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/TAllocationBlock.cpp.i
+.PHONY : TAllocationBlock.cpp.i
+
+TAllocationBlock.s: TAllocationBlock.cpp.s
+.PHONY : TAllocationBlock.s
+
+# target to generate assembly for a file
+TAllocationBlock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/TAllocationBlock.cpp.s
+.PHONY : TAllocationBlock.cpp.s
+
 TLinkedList.obj: TLinkedList.cpp.obj
 .PHONY : TLinkedList.obj
 
@@ -296,54 +320,6 @@ rectangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/rectangle.cpp.s
 .PHONY : rectangle.cpp.s
 
-square.obj: square.cpp.obj
-.PHONY : square.obj
-
-# target to build an object file
-square.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/square.cpp.obj
-.PHONY : square.cpp.obj
-
-square.i: square.cpp.i
-.PHONY : square.i
-
-# target to preprocess a source file
-square.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/square.cpp.i
-.PHONY : square.cpp.i
-
-square.s: square.cpp.s
-.PHONY : square.s
-
-# target to generate assembly for a file
-square.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/square.cpp.s
-.PHONY : square.cpp.s
-
-trapezoid.obj: trapezoid.cpp.obj
-.PHONY : trapezoid.obj
-
-# target to build an object file
-trapezoid.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/trapezoid.cpp.obj
-.PHONY : trapezoid.cpp.obj
-
-trapezoid.i: trapezoid.cpp.i
-.PHONY : trapezoid.i
-
-# target to preprocess a source file
-trapezoid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/trapezoid.cpp.i
-.PHONY : trapezoid.cpp.i
-
-trapezoid.s: trapezoid.cpp.s
-.PHONY : trapezoid.s
-
-# target to generate assembly for a file
-trapezoid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/trapezoid.cpp.s
-.PHONY : trapezoid.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -353,6 +329,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab6
+	@echo ... TAllocationBlock.obj
+	@echo ... TAllocationBlock.i
+	@echo ... TAllocationBlock.s
 	@echo ... TLinkedList.obj
 	@echo ... TLinkedList.i
 	@echo ... TLinkedList.s
@@ -374,12 +353,6 @@ help:
 	@echo ... rectangle.obj
 	@echo ... rectangle.i
 	@echo ... rectangle.s
-	@echo ... square.obj
-	@echo ... square.i
-	@echo ... square.s
-	@echo ... trapezoid.obj
-	@echo ... trapezoid.i
-	@echo ... trapezoid.s
 .PHONY : help
 
 
