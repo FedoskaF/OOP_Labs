@@ -46,8 +46,8 @@ int main() {
     std::cout << "lShift:\n";
     n2.lShift(2);
 
-    std::cout << "\nQuantity of 1-bits: \nn1: " << n1.get_bits() << "\n";
-    std::cout << "n2: " << n2.get_bits();
+    std::cout << "\nQuantity of 1-bits: \nn1: " << n1.get_bits_1() << "\n";
+    std::cout << "n2: " << n2.get_bits_1();
     std::cout << "\nDifference: " << n1.compare_by_bits(n2) << "\n\n";
     std::cout << "Comparing by bits:\n"
               << "n1 < n2 ? " << (n1.is_less(n2) ? "true" : "false") << "\n";

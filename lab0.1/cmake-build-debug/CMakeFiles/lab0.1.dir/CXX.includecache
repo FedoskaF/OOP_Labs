@@ -6,3 +6,19 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/user/Desktop/OOP/lab0.1/BitString.h
+string
+-
+iostream
+-
+string
+-
+
+C:/Users/user/Desktop/OOP/lab0.1/main.cpp
+string
+-
+iostream
+-
+BitString.h
+C:/Users/user/Desktop/OOP/lab0.1/BitString.h
+
